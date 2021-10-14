@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import defaultImage from "../../common/default.jpg";
 import s from "./FriendList.module.css";
 
 function FriendList({ friends }) {
@@ -9,7 +10,7 @@ function FriendList({ friends }) {
           <span className={friend.isOnline ? s.online : s.offline}></span>
           <img
             className={s.avatar}
-            src={friend.avatar}
+            src={friend.avatar ?? defaultImage}
             alt={friend.name}
             width="48"
           />
