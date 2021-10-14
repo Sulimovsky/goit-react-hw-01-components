@@ -1,0 +1,24 @@
+.transaction {
+  table-layout: fixed;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+.th {
+  width: 200px;
+  padding: 20px 0;
+  font-size: 22px;
+  border: 1px solid black;
+  background-color: #bcbcdb;
+}
+.tr:nth-child(2n) {
+  background-color: #8080802b;
+}
+.td {
+  padding: 20px 0;
+  text-align: center;
+  border: 1px solid black;
+}
+.td:nth-child(1) {
+  text-transform: capitalize;
+  font-size: 18px;
+}
