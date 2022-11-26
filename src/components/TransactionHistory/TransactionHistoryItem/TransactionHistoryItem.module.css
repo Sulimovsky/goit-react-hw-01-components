@@ -1,0 +1,8 @@
+.td {
+  padding: 10px 40px;
+  text-align: center;
+  border: 2px solid gray;
+}
+.tr:nth-child(2n) {
+  background-color: #e9e5e5;
+}
